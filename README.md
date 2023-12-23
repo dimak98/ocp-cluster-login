@@ -17,3 +17,20 @@ Before you begin, ensure you have met the following requirements:
 - Selenium WebDriver for Chrome or Firefox.
 
 ## Installation
+```bash
+pip install ocp-cluster-login
+```
+
+## Usage
+```bash
+ocp-cluster-login [-h] [-s SERVER] [-k] [-t TIMEOUT] [-d {chrome,firefox}]
+```
+The tool supports several command line arguments to customize its behavior:
+- `-s`, `--server`: Specify the API server URL. Defaults to `https://api.ocp.domain.com:6443`.
+- `-k`, `--insecure-skip-tls-verify`: Skip TLS verification if necessary.
+- `-t`, `--timeout`: Set the timeout for waiting for login in seconds. Default is 60 seconds.
+- `-d`, `--driver`: Choose the web driver. Supported drivers are `chrome` and `firefox`. Default is `chrome`.
+
+# Contributing
+
+We welcome contributions to the OpenShift Interactive Login CLI Tool! If you'd like to contribute, please follow the guidelines outlined in our [CONTRIBUTING.md](CONTRIBUTING.md) file.

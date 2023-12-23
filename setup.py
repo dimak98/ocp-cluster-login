@@ -19,4 +19,8 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
+    project_urls={
+        'Source': 'https://github.com/dimak98/ocp-cluster-login',
+        'Tracker': 'https://github.com/dimak98/ocp-cluster-login/',
+    },
 )
