@@ -33,8 +33,6 @@ The tool supports several command line arguments to customize its behavior:
 - `-t`, `--timeout`: Set the timeout for waiting for login in seconds. Default is 60 seconds.
 - `-d`, `--driver`: Choose the web driver. Supported drivers are `chrome` and `firefox`. Default is `chrome`.
 
-![Usage Demo](assets/base-usage.gif)
-
 # Contributing
 
 We welcome contributions to the OpenShift Interactive Login CLI Tool! If you'd like to contribute, please follow the guidelines outlined in our [CONTRIBUTING.md](CONTRIBUTING.md) file.
