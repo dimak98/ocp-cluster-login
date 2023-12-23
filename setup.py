@@ -5,7 +5,7 @@ with open('README.rst', encoding='utf-8') as f:
 
 setup(
     name='ocp-cluster-login',
-    version='v1.0.0',
+    version='v0.1.0',
     packages=find_packages(),
     include_package_data=True,
     author='dimak98',
@@ -28,6 +28,6 @@ setup(
     python_requires='>=3.6',
     project_urls={
         'Source': 'https://github.com/dimak98/ocp-cluster-login',
-        'Tracker': 'https://github.com/dimak98/ocp-cluster-login/',
+        'Tracker': 'https://github.com/dimak98/ocp-cluster-login/issues',
     },
 )
