@@ -1,10 +1,17 @@
 from setuptools import setup, find_packages
 
+with open('README.rst', encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(
     name='ocp-cluster-login',
     version='v1.0.0',
     packages=find_packages(),
     include_package_data=True,
+    author='dimak98',
+    author_email='kazindevops@gmail.com',
+    long_description=long_description,
+    long_description_content_type='text/x-rst',
     install_requires=[
         'selenium>=3.141.0',
     ],
