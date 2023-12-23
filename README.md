@@ -1,3 +1,5 @@
+![Logo](assets/logo.png)
+
 # OCP Cluster Login
 
 `ocp-cluster-login` is a Python tool designed to facilitate the login process to OpenShift clusters. It automates the web login flow using Selenium, making it easier to handle authentication for OpenShift clusters.
@@ -31,7 +33,7 @@ The tool supports several command line arguments to customize its behavior:
 - `-t`, `--timeout`: Set the timeout for waiting for login in seconds. Default is 60 seconds.
 - `-d`, `--driver`: Choose the web driver. Supported drivers are `chrome` and `firefox`. Default is `chrome`.
 
-![Usage Demo](demo/base-usage.gif)
+![Usage Demo](assets/base-usage.gif)
 
 # Contributing
 
