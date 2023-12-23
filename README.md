@@ -31,7 +31,7 @@ The tool supports several command line arguments to customize its behavior:
 - `-t`, `--timeout`: Set the timeout for waiting for login in seconds. Default is 60 seconds.
 - `-d`, `--driver`: Choose the web driver. Supported drivers are `chrome` and `firefox`. Default is `chrome`.
 
-![Base Usage Demo](demo/base-usage.gif)
+![Usage Demo](demo/base-usage.gif)
 
 # Contributing
 
