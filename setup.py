@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ocp-cluster-login',
-    version='1.0.0',
+    version='v1.0.0',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
